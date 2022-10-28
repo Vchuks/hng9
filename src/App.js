@@ -29,11 +29,32 @@ function App() {
         </div>
       </header>
       <main>
-        <Button href="#" children="Twitter Link" />
-        <Button href="https://training.zuri.team" children="Zuri Team" />
-        <Button href="#" children="Zuri Books" />
-        <Button href="#" children="Python Books" />
-        <Button href="#" children="Design Books" />
+        <Button
+          href="https://training.zuri.team"
+          children="Zuri Team"
+          id="btn_zuri"
+        />
+        <Button
+          href="http://books.zuri.team"
+          children="Zuri Books"
+          id="books"
+        />
+        <Button
+          href="https://books.zuri.team/python-for-beginners"
+          children="Python Books"
+          id="book_python"
+        />
+        <Button
+          href="https://background.zuri.team"
+          children="Background Check for Coders"
+          id="pitch"
+        />
+        <Button
+          href="https://books.zuri.team/design-rules "
+          children="Design Books"
+          id="book_design"
+        />
+
         <div className="icon">
           <a href="#">
             <img src={slack} alt="slack icon" />
