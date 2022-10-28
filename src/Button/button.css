@@ -1,0 +1,25 @@
+.btn-container{
+    width: 95%;
+    margin: auto;
+}
+.btn{
+    display: flex;
+    padding: 1.2rem;
+    margin: 1rem 0;
+    background-color: #EAECF0;
+    color: #101828;
+    border-radius: 10px;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 18px;
+}
+@media (max-width:997px) {
+    .btn-container{
+        width: 100%;
+    }
+    .btn{
+        padding: 1rem;
+        font-size: 14px;
+    }
+    
+}
