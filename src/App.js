@@ -30,10 +30,9 @@ function App() {
       </header>
       <main>
         <Button href="#" children="Twitter Link" />
-        <Button href="#" children="Zuri Team" />
+        <Button href="https://training.zuri.team" children="Zuri Team" />
         <Button href="#" children="Zuri Books" />
         <Button href="#" children="Python Books" />
-        <Button href="#" children="Background Check for Coders" />
         <Button href="#" children="Design Books" />
         <div className="icon">
           <a href="#">
