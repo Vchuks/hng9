@@ -1,0 +1,12 @@
+.contact-page{
+    width: 80%;
+    margin: auto;
+    padding: 10px 0 20px 0;
+    box-sizing: border-box;
+}
+.head-contact{
+    width: 70%;
+    margin: auto;
+    padding: 1rem;
+    font-size: 18px;
+}
