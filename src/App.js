@@ -1,15 +1,15 @@
 import "./App.css";
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "./Home"
+import Home from "./Home";
 import Contact from "./Contact";
 
 function App() {
   return (
     <Routes>
-      <Route path="/userprofile" element={<Home/>}/>
-    <Route path="contact" element={<Contact />} />
-  </Routes>
+      <Route path="/hng9" element={<Home />} />
+      <Route path="contact" element={<Contact />} />
+    </Routes>
   );
 }
 
