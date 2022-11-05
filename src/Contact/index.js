@@ -13,18 +13,26 @@ const index = () => {
             <div className="fn">
               <label>First name</label>
               <br />
-              <input type="text" placeholder="Enter your first name" />
+              <input
+                type="text"
+                placeholder="Enter your first name"
+                id="first_name"
+              />
             </div>
             <div className="fn">
               <label>Last name</label>
               <br />
-              <input type="text" placeholder="Enter your last name" />
+              <input
+                type="text"
+                placeholder="Enter your last name"
+                id="last_name"
+              />
             </div>
           </div>
           <div>
             <label>Email</label>
             <br />
-            <input type="text" placeholder="yourname@email.com" />
+            <input type="text" placeholder="yourname@email.com" id="email" />
           </div>
           <div>
             <label>Message</label>
@@ -43,7 +51,9 @@ const index = () => {
             </label>
           </div>
           <div className="btn-contact">
-            <button type="submit">Send Message</button>
+            <button type="submit" id="btn_submit">
+              Send Message
+            </button>
           </div>
         </form>
       </div>
