@@ -54,7 +54,7 @@ const index = () => {
           children="Design Books"
           id="book_design"
         />
-        <Button href="/contact" children="Contact Me" id="contact" />
+        <Button href="contact" children="Contact Me" id="contact" />
 
         <div className="icon">
           <a href="#">
