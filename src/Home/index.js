@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import pic from "./../images/avatar.png";
 import Button from "./../Button/Button";
 import share from "./../images/share-default.png";
@@ -6,12 +6,12 @@ import more from "./../images/more-default.png";
 import slack from "./../images/slack.png";
 import github from "./../images/github.png";
 import Footer from "./../Footer";
+import { Link } from "react-router-dom";
 
 const index = () => {
   return (
     <div className="App">
       <header>
-
         <div className="share">
           <a href="#">
             <img src={share} alt="share button" />
@@ -54,7 +54,9 @@ const index = () => {
           children="Design Books"
           id="book_design"
         />
-        <Button href="contact" children="Contact Me" id="contact" />
+        <Link to="/contact">
+          <Button children="Contact Me" id="contact" />
+        </Link>
 
         <div className="icon">
           <a href="#">
@@ -68,7 +70,7 @@ const index = () => {
       <hr />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default index
+export default index;

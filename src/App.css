@@ -51,7 +51,9 @@ footer{
   justify-content: space-between;
   align-items: center;
 }
-
+a{
+  text-decoration: none;
+}
 @media (max-width:997px) {
   .App{
     width: 100%;
